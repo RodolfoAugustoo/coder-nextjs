@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default function questao(req, res) {
   if (req.method === "GET") get(req, res);
   else res.status(405).send();
 }
